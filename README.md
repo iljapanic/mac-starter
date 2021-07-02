@@ -4,7 +4,7 @@
 
 ### Show hidden files
 
-In Finder press `⌘ + SHIFT + .` or run the following command:
+In Finder press `⌘ + ⇧ + .` or run the following command:
 
 ```shell
 defaults write com.apple.Finder AppleShowAllFiles true
