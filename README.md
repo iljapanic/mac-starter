@@ -18,12 +18,34 @@ In *Keyboard preferences > Keyboard Shortcuts* enable `Use keyboard navigation t
 ### Enable tab dialogue navigation
 
 
-## Resources
+## 📦 Resources
 
 ### Fonts
 
 
-## Apps
+## 💻 Shell
+
+### [brew](https://brew.sh/)
+
+```shell
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+### [mas](https://github.com/mas-cli/mas)
+
+```shell
+brew install mas
+```
+
+usage examples:
+
+- `mas list`
+- `mas search $APP`
+- `mas install $APP_IDENTIFIER`
+- `mas upgrade`
+
+
+## 🎛️ Apps
 
 ### Utilities
 
@@ -42,10 +64,4 @@ In *Keyboard preferences > Keyboard Shortcuts* enable `Use keyboard navigation t
 [MacDown](https://macdown.uranusjr.com/)
 
 
-## Shell
 
-[brew](https://brew.sh/)
-
-```shell
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
