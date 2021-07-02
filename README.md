@@ -4,6 +4,17 @@
 
 ### Show hidden files
 
+In Finder press `⌘ + SHIFT + .` or run the following command:
+
+```shell
+defaults write com.apple.Finder AppleShowAllFiles true
+```
+
+### Enable tab focus control
+
+In *Keyboard preferences > Keyboard Shortcuts* enable `Use keyboard navigation to move focus between controls`
+
+
 ### Enable tab dialogue navigation
 
 
@@ -15,6 +26,8 @@
 ## Apps
 
 ### Utilities
+
+[Glyphfinder](https://www.glyphfinder.com/#download) [💸]
 
 
 ### Development
