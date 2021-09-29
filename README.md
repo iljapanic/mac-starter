@@ -25,24 +25,68 @@ In *Keyboard preferences > Keyboard Shortcuts* enable `Use keyboard navigation t
 
 ## 💻 Shell
 
+### X Code tools
+
+```shell
+xcode-select --install
+```
+
 ### [brew](https://brew.sh/)
 
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-### [mas](https://github.com/mas-cli/mas)
+### brew packages
 
 ```shell
-brew install mas
+brew tap clementtsang/bottom
 ```
 
-usage examples:
+```shell
+brew install bottom broot cheat fzf gping lsd mas pyenv pyenv-virtualenv thefuck zoxide
+```
 
-- `mas list`
-- `mas search $APP`
-- `mas install $APP_IDENTIFIER`
-- `mas upgrade`
+```shell
+$(brew --prefix)/opt/fzf/install
+```
+
+
+Included packages:
+
+- [bottom](https://github.com/ClementTsang/bottom)
+- [broot](https://github.com/Canop/broot)
+- [cheat](https://github.com/cheat/cheat)
+- [fzf](https://github.com/junegunn/fzf)
+- [gping](https://github.com/orf/gping)
+- [lsd](https://github.com/Peltoche/lsd)
+- [mas](https://github.com/mas-cli/mas)
+- [pyenv](https://github.com/pyenv/pyenv)
+- [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv)
+- [thefuck](https://github.com/nvbn/thefuck)
+- [zoxide](https://github.com/ajeetdsouza/zoxide)
+
+
+### zsh setup
+
+
+### global npm packages
+
+
+- 
+
+### [krypton](https://krypt.co/kr)
+
+```shell
+curl https://krypt.co/kr | sh
+```
+
+### Python
+
+```
+pip install speedtest-cli
+```
+
 
 
 ## 🎛️ Apps
@@ -56,7 +100,9 @@ usage examples:
 
 [Visual Studio Code](https://code.visualstudio.com/download) (add instructions for sync)
 
-[iTerm](https://iterm2.com/downloads.html) (add instructions for settings sync)
+[iTerm](https://iterm2.com/downloads.html) (get [palenight color palette](https://raw.githubusercontent.com/JonathanSpeek/palenight-iterm2/master/palenight.itermcolors))
+
+
 
 
 ### Misc.
