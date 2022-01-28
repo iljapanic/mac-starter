@@ -44,7 +44,7 @@ brew tap clementtsang/bottom
 ```
 
 ```shell
-brew install bottom broot cheat fzf gping lsd mas pyenv pyenv-virtualenv thefuck zoxide
+brew install bottom broot cheat fzf gping lsd mas pyenv pyenv-virtualenv thefuck zoxide zplug
 ```
 
 ```shell
@@ -65,6 +65,7 @@ Included packages:
 - [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv)
 - [thefuck](https://github.com/nvbn/thefuck)
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
+- [zplug](https://github.com/zplug/zplug)
 
 
 ### zsh setup
