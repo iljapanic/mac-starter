@@ -4,6 +4,7 @@
 
 ### Show hidden files
 
+
 In Finder press `⌘ + SHIFT + .` or run the following command:
 
 ```shell
@@ -14,14 +15,9 @@ defaults write com.apple.Finder AppleShowAllFiles true
 
 In *Keyboard preferences > Keyboard Shortcuts* enable `Use keyboard navigation to move focus between controls`
 
-
-### Enable tab dialogue navigation
-
-
 ## 📦 Resources
 
 ### Fonts
-
 
 ## 💻 Shell
 
@@ -44,13 +40,12 @@ brew tap clementtsang/bottom
 ```
 
 ```shell
-brew install bottom broot cheat fzf gping lsd mas pyenv pyenv-virtualenv thefuck zoxide zplug
+brew install bottom broot cheat fzf gping lsd mas pyenv pyenv-virtualenv micro thefuck zoxide smudge/smudge/nightlight --cask ngrok imagemagick php composer
 ```
 
 ```shell
 $(brew --prefix)/opt/fzf/install
 ```
-
 
 Included packages:
 
@@ -59,24 +54,28 @@ Included packages:
 - [cheat](https://github.com/cheat/cheat)
 - [fzf](https://github.com/junegunn/fzf)
 - [gping](https://github.com/orf/gping)
+- [imagemagick](https://imagemagick.org/)
 - [lsd](https://github.com/Peltoche/lsd)
 - [mas](https://github.com/mas-cli/mas)
+- [micro](https://github.com/zyedidia/micro)
+- [ngrok]([GitHub - inconshreveable/ngrok: Introspected tunnels to localhost](https://github.com/inconshreveable/ngrok))
+- [nightlight]([GitHub - smudge/nightlight: A CLI for configuring &quot;Night Shift&quot; on macOS 🌕🌖🌗🌘🌑](https://github.com/smudge/nightlight))
 - [pyenv](https://github.com/pyenv/pyenv)
 - [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv)
 - [thefuck](https://github.com/nvbn/thefuck)
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
-- [zplug](https://github.com/zplug/zplug)
+- php
+- composer
 
+### [zplug](https://github.com/zplug/zplug)
 
-### zsh setup
-
+```shell
+curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
+```
 
 ### global npm packages
 
-
-- 
-
-### [krypton](https://krypt.co/kr)
+- ### [krypton](https://krypt.co/kr)
 
 ```shell
 curl https://krypt.co/kr | sh
@@ -88,14 +87,11 @@ curl https://krypt.co/kr | sh
 pip install speedtest-cli
 ```
 
-
-
 ## 🎛️ Apps
 
 ### Utilities
 
 [Glyphfinder](https://www.glyphfinder.com/#download) [💸]
-
 
 ### Development
 
@@ -103,12 +99,6 @@ pip install speedtest-cli
 
 [iTerm](https://iterm2.com/downloads.html) (get [palenight color palette](https://raw.githubusercontent.com/JonathanSpeek/palenight-iterm2/master/palenight.itermcolors))
 
-
-
-
 ### Misc.
 
 [MacDown](https://macdown.uranusjr.com/)
-
-
-
